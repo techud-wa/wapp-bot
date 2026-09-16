@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "WhatsApp Web automation bot for Google Apps Script",
   "main": "server.js",
- "scripts": {
+  "scripts": {
     "postinstall": "puppeteer install",
     "start": "node server.js"
-  },
   },
   "dependencies": {
     "body-parser": "^1.20.2",
